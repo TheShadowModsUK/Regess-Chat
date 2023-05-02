@@ -1,8 +1,8 @@
-# WaterCooler Chat 1.4
+# Regress-Chat 0.1 Alpha
 
-WaterCooler chat is a simple/easy to use, flat file database php/ajax chat system.
-
-![Preview](https://github.com/jonufele/WaterCooler-Chat/blob/master/preview.jpg)
+Regress-Chat chat is a simple/easy to use, flat file database php/ajax chat system.
+based on Rexzooly's fork of WaterCooler-Chat
+![Preview](https://github.com/TheShadowModsUK/Regess-Chat/blob/master/preview.jpg)
 
 ## Features
 
@@ -73,14 +73,4 @@ WaterCooler chat is a simple/easy to use, flat file database php/ajax chat syste
 - Master moderator status will be given to the first user that joins the chat with a password.
 - Moderators under edit mode: Hiding a message from the chat takes immediate effect on the other online users, while the unhide action only takes effect on user's next visit to the room.
 - In case microtime function is not available, disabling the anti spam restriction may generate non unique message ids which can trouble the hide/unhide feature.
-- To remove the copyright note, you must make a donation to the project (See below).
 - It is recommended to rename the data directory (or move it outside the web root) to ensure user's privacy. (don't forget to rename on settings.php as well).
-
-
-## Donations
-
-If you like this project, consider making a donation:
-
-https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9ZHN6EUXWLAQG
-
-Thank you for choosing WaterCooler Chat.
